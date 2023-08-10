@@ -46,7 +46,7 @@ set_terminal_colors(colors)
     -- SpecialKey = { link = "GruvboxFg4" },
     -- Visual = { bg = colors.bg3, reverse = config.invert_selection },
     -- VisualNOS = { link = "Visual" },
-    Search = { fg = colors.grey2, bg = colors.green },
+    Search = { fg = colors.light_grey, bg = colors.green },
     -- IncSearch = { fg = colors.orange, bg = colors.bg0, reverse = config.inverse },
     -- CurSearch = { link = "IncSearch" },
     -- QuickFixLine = { fg = colors.bg0, bg = colors.yellow, bold = config.bold },
