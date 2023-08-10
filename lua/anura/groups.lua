@@ -41,7 +41,7 @@ set_terminal_colors(colors)
     Conceal = { fg = colors.blue },
     CursorLineNr = { fg = colors.yellow, bg = colors.bg1 },
     EndOfBuffer = { fg = colors.light_grey, bg = colors.light_grey },
-    VertSplit = { fg = colors.dark_grey3, bg = colors.light_grey }
+    VertSplit = { fg = colors.dark_grey3, bg = colors.light_grey },
     -- NonText = { link = "GruvboxBg2" },
     -- SpecialKey = { link = "GruvboxFg4" },
     -- Visual = { bg = colors.bg3, reverse = config.invert_selection },
