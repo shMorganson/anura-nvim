@@ -32,7 +32,7 @@ set_terminal_colors(colors)
     NormalFloat = { fg = colors.grey1, bg = colors.grey },
     --NormalNC = config.dim_inactive and { fg = colors.fg0, bg = colors.bg1 } or { link = "Normal" },
     CursorLine = { bg = colors.light_grey },
-    --CursorColumn = { link = "CursorLine" },
+    CursorColumn = { link = "CursorLine" },
     --TabLineFill = { fg = colors.bg4, bg = colors.bg1, reverse = config.invert_tabline },
     --TabLineSel = { fg = colors.green, bg = colors.bg1, reverse = config.invert_tabline },
     --TabLine = { link = "TabLineFill" },
@@ -387,10 +387,10 @@ set_terminal_colors(colors)
   --   gitcommitSelectedFile = { link = "GruvboxGreen" },
   --   gitcommitDiscardedFile = { link = "GruvboxRed" },
  -- gitsigns.nvim
-      GitSignsAdd = { fg = colors.dark_green, bg = colors.light_grey },
-      GitSignsChange = { fg = colors.yellow, bg = colors.light_grey },
-      GitSignsDelete = { fg = colors.dark_red, bg = colors.light_grey },
- -   -- nvim-tree
+    GitSignsAdd = { fg = colors.dark_green, bg = colors.light_grey },
+    GitSignsChange = { fg = colors.yellow, bg = colors.light_grey },
+    GitSignsDelete = { fg = colors.dark_red, bg = colors.light_grey },
+  --   -- nvim-tree
   --   NvimTreeSymlink = { fg = colors.neutral_aqua },
   --   NvimTreeRootFolder = { fg = colors.neutral_purple, bold = true },
   --   NvimTreeFolderIcon = { fg = colors.neutral_blue, bold = true },
@@ -468,18 +468,21 @@ set_terminal_colors(colors)
   --   CocWarningHighlight = { link = "GruvboxOrangeUnderline" },
   --   CocInfoHighlight = { link = "GruvboxBlueUnderline" },
   --   CocHintHighlight = { link = "GruvboxAquaUnderline" },
-  --   -- telescope.nvim
-  --   TelescopeNormal = { link = "GruvboxFg1" },
-  --   TelescopeSelection = { link = "GruvboxOrangeBold" },
-  --   TelescopeSelectionCaret = { link = "GruvboxRed" },
-  --   TelescopeMultiSelection = { link = "GruvboxGray" },
-  --   TelescopeBorder = { link = "TelescopeNormal" },
-  --   TelescopePromptBorder = { link = "TelescopeNormal" },
-  --   TelescopeResultsBorder = { link = "TelescopeNormal" },
-  --   TelescopePreviewBorder = { link = "TelescopeNormal" },
-  --   TelescopeMatching = { link = "GruvboxBlue" },
-  --   TelescopePromptPrefix = { link = "GruvboxRed" },
-  --   TelescopePrompt = { link = "TelescopeNormal" },
+ -- telescope.nvim
+    -- TelescopeNormal = { link = "GruvboxFg1" },
+    TelescopeSelection = { bold = true },
+    TelescopeSelectionCaret = { fg = colors.purple },
+    -- TelescopeMultiSelection = { link = "GruvboxGray" },
+    -- TelescopeBorder = { link = "TelescopeNormal" },
+    TelescopePromtTitle = { fg = colors.dark_blue, bold = true },
+    TelescopePromptBorder = { fg = colors.dark_blue, bg = colors.light_grey },
+    TelescopeResultsBorder = { fg = colors.dark_blue, bg = colors.light_grey },
+    TelescopeResultsTitle = { fg = colors.dark_blue, bold = true },
+    TelescopePreviewBorder = { fg = colors.dark_grey3, bg = colors.light_grey },
+    TelescopePreviewTitle = { fg = colors.dark_green, bold = true },
+    TelescopeMatching = { fg = colors.purple, bold = true },
+    TelescopePromptPrefix = { fg = colors.purple },
+    -- TelescopePrompt = { link = "TelescopeNormal" },
   --   -- nvim-cmp
   --   CmpItemAbbr = { link = "GruvboxFg0" },
   --   CmpItemAbbrDeprecated = { link = "GruvboxFg1" },
@@ -916,23 +919,24 @@ set_terminal_colors(colors)
   --   CarbonPending = { link = "GruvboxYellow" },
   --   -- noice.nvim
   --   NoiceCursor = { link = "TermCursor" },
- -- notify.nvim
-  --   NotifyDEBUGBorder = { fg = colors.dark_blue },
-  --   NotifyDEBUGIcon = { fg = colors.blue },
-  --   NotifyDEBUGTitle = { fg = colors.blue },
-  --   NotifyERRORBorder = { fg = colors.dark_red },
-  --   NotifyERRORIcon = { fg = colors.red },
-  --   NotifyERRORTitle = { fg = colors.red },
-  --   NotifyINFOBorder = { fg = colors.dark_teal },
-  --   NotifyINFOIcon = { fg = colors.teal },
-  --   NotifyINFOTitle = { fg = colors.teal },
-  --   NotifyTRACEBorder = { fg = colors.dark_green },
-  --   NotifyTRACEIcon = { fg = colors.green },
-  --   NotifyTRACETitle = { fg = colors.green },
-  --   NotifyWARNBorder = { fg = colors.yellow },
-  --   NotifyWARNIcon = { fg = colors.yellow },
-  --   NotifyWARNTitle = { fg = colors.yellow },
-  -- --
+  -- notify.nvim
+    NotifyDEBUGBorder = { fg = colors.dark_blue },
+    NotifyDEBUGIcon = { fg = colors.blue },
+    NotifyDEBUGTitle = { fg = colors.blue },
+    NotifyERRORBorder = { fg = colors.dark_red },
+    NotifyERRORIcon = { fg = colors.red },
+    NotifyERRORTitle = { fg = colors.red },
+    NotifyINFOBorder = { fg = colors.dark_teal },
+    NotifyINFOIcon = { fg = colors.teal },
+    NotifyINFOTitle = { fg = colors.teal },
+    NotifyTRACEBorder = { fg = colors.dark_green },
+    NotifyTRACEIcon = { fg = colors.green },
+    NotifyTRACETitle = { fg = colors.green },
+    NotifyWARNBorder = { fg = colors.yellow },
+    NotifyWARNIcon = { fg = colors.yellow },
+    NotifyWARNTitle = { fg = colors.yellow },
+
+  --
   --   -- ts-rainbow2 (maintained fork)
   --   TSRainbowRed = { fg = colors.red },
   --   TSRainbowOrange = { fg = colors.orange },
@@ -953,8 +957,7 @@ set_terminal_colors(colors)
 --
 --     groups[group] = vim.tbl_extend("force", groups[group] or {}, hl)
 --   end
-
-}
+  }
 return groups
 
 end
