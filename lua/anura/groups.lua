@@ -938,9 +938,9 @@ set_terminal_colors(colors)
     NotifyWARNTitle = { fg = colors.yellow },
   -- Lazy
     LazyH1 = { fg = colors.dark_blue, bg = colors.light_grey },
-    LazyProp = { fg = colors.light_grey },
+    LazyProp = { bg = colors.light_grey },
     LazyButton = { fg = colors.dark_blue },
-    LazyNormal = { fg = colors.light_grey },
+    LazyNormal = { bg = colors.light_grey },
     LazySpecial = { fg = colors.green },
   --   -- ts-rainbow2 (maintained fork)
   --   TSRainbowRed = { fg = colors.red },
