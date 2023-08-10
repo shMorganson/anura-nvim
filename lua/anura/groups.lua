@@ -29,7 +29,8 @@ set_terminal_colors(colors)
   local groups = {
     -- Base groups
     Normal = { fg = colors.dark_grey1 },
-    NormalFloat = { bg = colors.dark_grey3, fg = colors.dark_blue },
+    NormalFloat = { bg = colors.dark_grey3, },
+    FloatBorder = { fg = colors.dark_purple, bg = colors.dark_grey3 },
     --NormalNC = config.dim_inactive and { fg = colors.fg0, bg = colors.bg1 } or { link = "Normal" },
     CursorLine = { bg = colors.light_grey },
     CursorColumn = { link = "CursorLine" },
