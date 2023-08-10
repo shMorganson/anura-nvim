@@ -939,16 +939,17 @@ M.setup = function()
   --   TSRainbowCyan = { fg = colors.cyan },
   -- }
 
-  for group, hl in pairs(config.overrides) do
-    if groups[group] then
-      -- "link" should not mix with other configs (:h hi-link)
-      groups[group].link = nil
-    end
-
-    groups[group] = vim.tbl_extend("force", groups[group] or {}, hl)
-  end
-
-  return groups
+--   for group, hl in pairs(config.overrides) do
+--     if groups[group] then
+--       -- "link" should not mix with other configs (:h hi-link)
+--       groups[group].link = nil
+--     end
+--
+--     groups[group] = vim.tbl_extend("force", groups[group] or {}, hl)
+--   end
+--
+--   return groups
+  }
 end
 
 return M
