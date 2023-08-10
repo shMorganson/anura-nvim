@@ -943,7 +943,7 @@ set_terminal_colors(colors)
     LazyButton = { fg = colors.dark_blue },
     LazyNormal = { bg = colors.light_grey },
     LazySpecial = { fg = colors.green },
-    LazyActiveButton = { fg = colors.dark_blue },
+    LazyActiveButton = { fg = colors.dark_blue, bg = colors.dark_grey3 },
     LazyProgressDone = { fg = colors.green },
   --   -- ts-rainbow2 (maintained fork)
   --   TSRainbowRed = { fg = colors.red },
