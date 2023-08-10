@@ -469,7 +469,7 @@ set_terminal_colors(colors)
   --   CocInfoHighlight = { link = "GruvboxBlueUnderline" },
   --   CocHintHighlight = { link = "GruvboxAquaUnderline" },
  -- telescope.nvim
-    TelescopeNormal = { fg = colors.dark_grey1 },
+    TelescopeNormal = { fg = colors.dark_grey1, bg = colors.light_grey },
     TelescopeSelection = { bold = true },
     TelescopeSelectionCaret = { fg = colors.purple },
     TelescopePromptCounter = { fg = colors.light_grey1 },
