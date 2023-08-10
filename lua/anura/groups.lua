@@ -378,7 +378,11 @@ set_terminal_colors(colors)
   --   ["@lsp.type.type"] = { link = "@type" },
   --   ["@lsp.type.typeParameter"] = { link = "@type.definition" },
   --   ["@lsp.type.variable"] = { link = "@variable" },
-  --
+
+ -- Alpha
+      AlphaHeaderColor = { fg = colors.dark_blue },
+      AlphaFooterColor = { fg = colors.green, bold = true },
+
   --   -- gitcommit
   --   gitcommitSelectedFile = { link = "GruvboxGreen" },
   --   gitcommitDiscardedFile = { link = "GruvboxRed" },
@@ -939,6 +943,8 @@ set_terminal_colors(colors)
   --   TSRainbowCyan = { fg = colors.cyan },
   -- }
 
+
+-- In case I want to add overides
 --   for group, hl in pairs(config.overrides) do
 --     if groups[group] then
 --       -- "link" should not mix with other configs (:h hi-link)
