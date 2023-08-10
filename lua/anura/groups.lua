@@ -78,7 +78,7 @@ set_terminal_colors(colors)
     -- Done = { fg = colors.orange, bold = config.bold, italic = config.italic.comments },
     -- Error = { fg = colors.red, bold = config.bold, reverse = config.inverse },
     -- Statement = { link = "GruvboxRed" },
-    -- Conditional = { link = "GruvboxRed" },
+   Conditional = { fg = colors.red },
     -- Repeat = { link = "GruvboxRed" },
     -- Label = { link = "GruvboxRed" },
     -- Exception = { link = "GruvboxRed" },
