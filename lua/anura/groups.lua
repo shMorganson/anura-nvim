@@ -24,8 +24,7 @@ end
 M.setup = function()
   local colors = require("anura.palette")
 
-
-  set_terminal_colors(colors)
+set_terminal_colors(colors)
 
   local groups = {
     -- Base groups
@@ -948,9 +947,9 @@ M.setup = function()
 --
 --     groups[group] = vim.tbl_extend("force", groups[group] or {}, hl)
 --   end
---
---   return groups
-  }
+  }--
+return groups
+
 end
 
 return M

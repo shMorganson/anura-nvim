@@ -55,5 +55,5 @@ M.colors = {
 --
 --     return colors[bg]
 -- end
-
+--
 return M
