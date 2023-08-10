@@ -63,7 +63,7 @@ set_terminal_colors(colors)
     -- ModeMsg = { link = "GruvboxYellowBold" },
     -- Question = { link = "GruvboxOrangeBold" },
     -- WarningMsg = { link = "GruvboxRedBold" },
-    -- LineNr = { fg = colors.bg4 },
+   LineNr = { fg = colors.grey },
     -- SignColumn = config.transparent_mode and { bg = nil } or { bg = colors.bg1 },
     -- Folded = { fg = colors.gray, bg = colors.bg1, italic = config.italic.folds },
     -- FoldColumn = config.transparent_mode and { fg = colors.gray, bg = nil } or { fg = colors.gray, bg = colors.bg1 },
@@ -72,9 +72,7 @@ set_terminal_colors(colors)
     -- iCursor = { link = "Cursor" },
     -- lCursor = { link = "Cursor" },
     -- Special = { link = "GruvboxOrange" },
-    -- Comment = { fg = colors.gray, italic = config.italic.comments },
-    -- -- Todo         anything that needs extra attention; mostly the
-    -- --              keywords TODO FIXME and XXX
+    Comment = { fg = colors.gray },
     -- Todo = { fg = colors.bg0, bg = colors.yellow, bold = config.bold, italic = config.italic.comments },
     -- Done = { fg = colors.orange, bold = config.bold, italic = config.italic.comments },
     -- Error = { fg = colors.red, bold = config.bold, reverse = config.inverse },
