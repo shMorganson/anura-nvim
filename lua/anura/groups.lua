@@ -940,7 +940,7 @@ set_terminal_colors(colors)
     LazyH1 = { fg = colors.dark_blue, bg = colors.light_grey },
     LazyProp = { bg = colors.light_grey },
     LazyButton = { fg = colors.dark_blue },
-    LazyNormal = { bg = colors.dark_grey2 },
+    LazyNormal = { bg = colors.dark_grey3 },
     LazySpecial = { fg = colors.green },
     LazyActiveButton = { fg = colors.dark_blue },
     LazyProgressDone = { fg = colors.green },
