@@ -471,7 +471,7 @@ set_terminal_colors(colors)
  -- telescope.nvim
     TelescopeNormal = { fg = colors.dark_grey1, bg = colors.light_grey },
     TelescopeSelection = { bold = true },
-    TelescopeSelectionCaret = { fg = colors.dark_orange },
+    TelescopeSelectionCaret = { fg = colors.orange },
     TelescopePromptCounter = { fg = colors.light_grey1 },
     -- TelescopeMultiSelection = { link = "GruvboxGray" },
     -- TelescopeBorder = { link = "TelescopeNormal" },
@@ -479,10 +479,10 @@ set_terminal_colors(colors)
     TelescopePromptBorder = { fg = colors.dark_blue, bg = colors.light_grey },
     TelescopeResultsBorder = { fg = colors.dark_blue, bg = colors.light_grey },
     TelescopeResultsTitle = { fg = colors.dark_blue, bold = true },
-    TelescopePreviewBorder = { fg = colors.dark_green, bg = colors.light_grey },
+    TelescopePreviewBorder = { fg = colors.green, bg = colors.light_grey },
     TelescopePreviewTitle = { fg = colors.dark_green, bold = true },
-    TelescopeMatching = { fg = colors.dark_orange, bold = true },
-    TelescopePromptPrefix = { fg = colors.dark_orange },
+    TelescopeMatching = { fg = colors.orange, bold = true },
+    TelescopePromptPrefix = { fg = colors.orange },
     TelescopePrompt = { link = "TelescopeNormal" },
   --   -- nvim-cmp
   --   CmpItemAbbr = { link = "GruvboxFg0" },
