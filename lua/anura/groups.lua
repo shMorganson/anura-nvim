@@ -97,7 +97,7 @@ set_terminal_colors(colors)
     -- Boolean = { link = "GruvboxPurple" },
    Number = { fg = colors.dark_purple },
     -- Float = { link = "GruvboxPurple" },
-   Type = { fg = colors.dark.orange },
+   Type = { fg = colors.dark_orange },
     -- StorageClass = { link = "GruvboxOrange" },
     -- Structure = { link = "GruvboxAqua" },
     -- Typedef = { link = "GruvboxYellow" },
