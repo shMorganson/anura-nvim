@@ -32,7 +32,7 @@ set_terminal_colors(colors)
     NormalFloat = { fg = colors.grey1, bg = colors.grey },
     --NormalNC = config.dim_inactive and { fg = colors.fg0, bg = colors.bg1 } or { link = "Normal" },
     CursorLine = { bg = colors.light_grey },
-    CursorColumn = { link = "CursorLine" },
+    --CursorColumn = { link = "CursorLine" },
     --TabLineFill = { fg = colors.bg4, bg = colors.bg1, reverse = config.invert_tabline },
     --TabLineSel = { fg = colors.green, bg = colors.bg1, reverse = config.invert_tabline },
     --TabLine = { link = "TabLineFill" },
@@ -917,22 +917,22 @@ set_terminal_colors(colors)
   --   -- noice.nvim
   --   NoiceCursor = { link = "TermCursor" },
  -- notify.nvim
-    NotifyDEBUGBorder = { fg = colors.dark_blue },
-    NotifyDEBUGIcon = { fg = colors.blue },
-    NotifyDEBUGTitle = { fg = colors.blue },
-    NotifyERRORBorder = { fg = colors.dark_red },
-    NotifyERRORIcon = { fg = colors.red },
-    NotifyERRORTitle = { fg = colors.red },
-    NotifyINFOBorder = { fg = colors.dark_teal },
-    NotifyINFOIcon = { fg = colors.teal },
-    NotifyINFOTitle = { fg = colors.teal },
-    NotifyTRACEBorder = { fg = colors.dark_green },
-    NotifyTRACEIcon = { fg = colors.green },
-    NotifyTRACETitle = { fg = colors.green },
-    NotifyWARNBorder = { fg = colors.yellow },
-    NotifyWARNIcon = { fg = colors.yellow },
-    NotifyWARNTitle = { fg = colors.yellow },
-  --
+  --   NotifyDEBUGBorder = { fg = colors.dark_blue },
+  --   NotifyDEBUGIcon = { fg = colors.blue },
+  --   NotifyDEBUGTitle = { fg = colors.blue },
+  --   NotifyERRORBorder = { fg = colors.dark_red },
+  --   NotifyERRORIcon = { fg = colors.red },
+  --   NotifyERRORTitle = { fg = colors.red },
+  --   NotifyINFOBorder = { fg = colors.dark_teal },
+  --   NotifyINFOIcon = { fg = colors.teal },
+  --   NotifyINFOTitle = { fg = colors.teal },
+  --   NotifyTRACEBorder = { fg = colors.dark_green },
+  --   NotifyTRACEIcon = { fg = colors.green },
+  --   NotifyTRACETitle = { fg = colors.green },
+  --   NotifyWARNBorder = { fg = colors.yellow },
+  --   NotifyWARNIcon = { fg = colors.yellow },
+  --   NotifyWARNTitle = { fg = colors.yellow },
+  -- --
   --   -- ts-rainbow2 (maintained fork)
   --   TSRainbowRed = { fg = colors.red },
   --   TSRainbowOrange = { fg = colors.orange },
@@ -953,7 +953,8 @@ set_terminal_colors(colors)
 --
 --     groups[group] = vim.tbl_extend("force", groups[group] or {}, hl)
 --   end
-  }--
+
+}
 return groups
 
 end
