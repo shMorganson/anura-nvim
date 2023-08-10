@@ -90,7 +90,7 @@ set_terminal_colors(colors)
    Include = { fg = colors.dark_teal },
    Define = { fg = colors.dark_teal },
    Macro = { fg = colors.dark_teal },
-   PreCondit = { colors.dark_teal },
+   PreCondit = {fg = colors.dark_teal },
    Constant = { fg = colors.dark_purple },
     -- Character = { link = "GruvboxPurple" },
    String = { fg = colors.dark_green },
