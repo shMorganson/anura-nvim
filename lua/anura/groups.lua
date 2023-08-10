@@ -17,7 +17,7 @@ local function set_terminal_colors(colors)
   vim.g.terminal_color_6 = colors.dark_teal
   vim.g.terminal_color_14 = colors.teal
   vim.g.terminal_color_7 = colors.grey
-  vim.g.terminal_color_15 = colors.light.grey
+  vim.g.terminal_color_15 = colors.light_grey
 end
 
 -- Might need looked at due to not having config in init.lua
