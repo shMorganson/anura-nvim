@@ -77,7 +77,7 @@ set_terminal_colors(colors)
     -- Todo = { fg = colors.bg0, bg = colors.yellow, bold = config.bold, italic = config.italic.comments },
     -- Done = { fg = colors.orange, bold = config.bold, italic = config.italic.comments },
     -- Error = { fg = colors.red, bold = config.bold, reverse = config.inverse },
-    -- Statement = { link = "GruvboxRed" },
+   Statement = { link = "Conditional" },
    Conditional = { fg = colors.red },
     -- Repeat = { link = "GruvboxRed" },
     -- Label = { link = "GruvboxRed" },
