@@ -939,7 +939,7 @@ set_terminal_colors(colors)
     NotifyWARNTitle = { fg = colors.yellow },
   -- Lazy
     LazyH1 = { fg = colors.dark_blue, bg = colors.dark_grey3, bold = true },
-    LazyProp = { bg = colors.light_grey },
+    LazyProp = { bg = colors.dark_grey3, fg = colors.dark_blue },
     LazyButton = { fg = colors.dark_blue },
     LazyNormal = { bg = colors.light_grey },
     LazySpecial = { fg = colors.green },
