@@ -22,7 +22,8 @@ end
 
 -- Might need looked at due to not having config in init.lua
 M.setup = function()
-  local colors = require("gruvbox.palette")
+  local colors = require("anura.palette")
+
 
   set_terminal_colors(colors)
 
