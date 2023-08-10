@@ -101,7 +101,7 @@ set_terminal_colors(colors)
     -- StorageClass = { link = "GruvboxOrange" },
     -- Structure = { link = "GruvboxAqua" },
     -- Typedef = { link = "GruvboxYellow" },
-    Pmenu = { bg = "#E8E8E8" },
+    Pmenu = { bg = colors.light_grey3 },
     PmenuSel = { fg = colors.light_grey, bg = colors.purple },
     PmenuSbar = { bg = colors.light_grey1 },
   --   PmenuThumb = { bg = colors.bg4 },
