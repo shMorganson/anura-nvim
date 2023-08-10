@@ -28,7 +28,7 @@ M.setup = function()
 
   local groups = {
     -- Base groups
-    Normal = { fg = colors.dark_grey1, bg = nil },
+    Normal = { fg = colors.dark_grey1 },
     NormalFloat = { fg = colors.grey1, bg = colors.grey },
     --NormalNC = config.dim_inactive and { fg = colors.fg0, bg = colors.bg1 } or { link = "Normal" },
     CursorLine = { bg = colors.light_grey },
