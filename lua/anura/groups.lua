@@ -22,7 +22,7 @@ end
 
 -- Might need looked at due to not having config in init.lua
 M.setup = function()
-  local colors = require("anura.palette")
+  local colors = require("anura.palette").get_base_colors(vim.o.background)
 
 set_terminal_colors(colors)
 
