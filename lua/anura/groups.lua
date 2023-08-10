@@ -478,7 +478,7 @@ set_terminal_colors(colors)
     TelescopePromptBorder = { fg = colors.dark_blue, bg = colors.light_grey },
     TelescopeResultsBorder = { fg = colors.dark_blue, bg = colors.light_grey },
     TelescopeResultsTitle = { fg = colors.dark_blue, bold = true },
-    TelescopePreviewBorder = { fg = colors.dark_grey3, bg = colors.light_grey },
+    TelescopePreviewBorder = { fg = colors.dark_green, bg = colors.light_grey },
     TelescopePreviewTitle = { fg = colors.dark_green, bold = true },
     TelescopeMatching = { fg = colors.purple, bold = true },
     TelescopePromptPrefix = { fg = colors.purple },
