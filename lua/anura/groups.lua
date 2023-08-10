@@ -29,7 +29,7 @@ set_terminal_colors(colors)
   local groups = {
     -- Base groups
     Normal = { fg = colors.dark_grey1 },
-    NormalFloat = { bg = colors.grey },
+    NormalFloat = { bg = colors.dark_grey3 },
     --NormalNC = config.dim_inactive and { fg = colors.fg0, bg = colors.bg1 } or { link = "Normal" },
     CursorLine = { bg = colors.light_grey },
     CursorColumn = { link = "CursorLine" },
@@ -425,17 +425,17 @@ set_terminal_colors(colors)
   --   -- vim-dirvish
   --   DirvishPathTail = { link = "GruvboxAqua" },
   --   DirvishArg = { link = "GruvboxYellow" },
-  --   -- netrw
-  --   netrwDir = { link = "GruvboxAqua" },
-  --   netrwClassify = { link = "GruvboxAqua" },
-  --   netrwLink = { link = "GruvboxGray" },
-  --   netrwSymLink = { link = "GruvboxFg1" },
-  --   netrwExe = { link = "GruvboxYellow" },
-  --   netrwComment = { link = "GruvboxGray" },
-  --   netrwList = { link = "GruvboxBlue" },
-  --   netrwHelpCmd = { link = "GruvboxAqua" },
-  --   netrwCmdSep = { link = "GruvboxFg3" },
-  --   netrwVersion = { link = "GruvboxGreen" },
+ -- netrw
+    netrwDir = { fg = colors.dark_teal },
+    netrwClassify = { fg = colors.dark_teal },
+    netrwLink = { fg = colors.blue },
+    netrwSymLink = { fg = colors.blue },
+    netrwExe = { fg = colors.yellow },
+    netrwComment = { link = "Comment" },
+    netrwList = { fg = colors.dark_blue },
+    netrwHelpCmd = { fg = colors.dark_teal },
+    netrwCmdSep = { fg = colors.grey },
+    netrwVersion = { fg = colors.dark_green },
   --   -- nerdtree
   --   NERDTreeDir = { link = "GruvboxAqua" },
   --   NERDTreeDirSlash = { link = "GruvboxAqua" },
@@ -937,7 +937,7 @@ set_terminal_colors(colors)
     NotifyWARNIcon = { fg = colors.yellow },
     NotifyWARNTitle = { fg = colors.yellow },
   -- Lazy
-    LazyH1 = { fg = colors.dark_blue, bg = colors.light_grey },
+    LazyH1 = { fg = colors.dark_blue, bg = colors.dark_grey3, bold = true },
     LazyProp = { bg = colors.light_grey },
     LazyButton = { fg = colors.dark_blue },
     LazyNormal = { bg = colors.dark_grey3 },
