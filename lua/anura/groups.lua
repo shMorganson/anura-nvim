@@ -947,8 +947,8 @@ set_terminal_colors(colors)
     LazyProgressDone = { fg = colors.green },
   -- IndentBlankline
     IndentBlanklineSpaceChar = { fg = colors.light_grey1 },
-    IndentBlanklineChar = { fg = colors.teal },
-    IndentBlanklineContextChat = { fg = colors.orange },
+    IndentBlanklineChar = { fg = colors.blue },
+    IndentBlanklineContextChar = { fg = colors.orange },
 
 -- In case I want to add overides
 --   for group, hl in pairs(config.overrides) do
