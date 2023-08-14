@@ -1,7 +1,7 @@
 # anura-nvim
 Anura theme for vim/neovim
 
-[https://github.com/shMorganson/anura-nvim/blob/main/screenshots/1.png]
+![Anura Screenshot](https://github.com/shMorganson/anura-nvim/blob/main/screenshots/1.png)
 
 # Prerequisites
 
