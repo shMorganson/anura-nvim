@@ -1,5 +1,6 @@
 # anura-nvim
 Anura theme for vim/neovim
+#### Currently light verions only!
 
 ![Anura Screenshot](https://github.com/shMorganson/anura-nvim/blob/main/screenshots/1.png)
 ![Anura Screenshot](https://github.com/shMorganson/anura-nvim/blob/main/screenshots/2.png)
