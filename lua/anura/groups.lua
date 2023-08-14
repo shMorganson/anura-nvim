@@ -949,6 +949,7 @@ set_terminal_colors(colors)
     IndentBlanklineSpaceChar = { fg = colors.light_grey1 },
     IndentBlanklineChar = { fg = colors.blue },
     IndentBlanklineContextChar = { fg = colors.orange },
+    IndentBlanklineContextStart = { fg = colors.blue },
 
 -- In case I want to add overides
 --   for group, hl in pairs(config.overrides) do
