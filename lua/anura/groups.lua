@@ -945,16 +945,10 @@ set_terminal_colors(colors)
     LazySpecial = { fg = colors.green },
     LazyActiveButton = { fg = colors.dark_blue, bg = colors.dark_grey3 },
     LazyProgressDone = { fg = colors.green },
-  --   -- ts-rainbow2 (maintained fork)
-  --   TSRainbowRed = { fg = colors.red },
-  --   TSRainbowOrange = { fg = colors.orange },
-  --   TSRainbowYellow = { fg = colors.yellow },
-  --   TSRainbowGreen = { fg = colors.green },
-  --   TSRainbowBlue = { fg = colors.blue },
-  --   TSRainbowViolet = { fg = colors.purple },
-  --   TSRainbowCyan = { fg = colors.cyan },
-  -- }
-
+  -- IndentBlankline
+    IndentBlanklineSpaceChar = { fg = colors.light_grey1 },
+    IndentBlanklineChar = { fg = colors.teal },
+    IndentBlanklineContextChat = { fg = colors.orange },
 
 -- In case I want to add overides
 --   for group, hl in pairs(config.overrides) do
