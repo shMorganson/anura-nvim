@@ -947,8 +947,8 @@ set_terminal_colors(colors)
     LazyProgressDone = { fg = colors.green },
   -- IndentBlankline
     IndentBlanklineSpaceChar = { fg = colors.light_grey1 },
-    IndentBlanklineChar = { fg = colors.blue },
-    IndentBlanklineContextChar = { fg = colors.orange },
+    IndentBlanklineChar = { fg = colors.light_grey1 },
+    IndentBlanklineContextChar = { fg = colors.blue },
     IndentBlanklineContextStart = { fg = colors.blue },
 
 -- In case I want to add overides
