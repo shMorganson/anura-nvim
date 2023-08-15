@@ -28,7 +28,7 @@ set_terminal_colors(colors)
 
   local groups = {
     -- Base groups
-    Normal = { fg = colors.dark_grey1 },
+    Normal = { fg = colors.dark_grey1},
     NormalFloat = { bg = colors.light_grey },
     FloatBorder = { fg = colors.dark_purple, bg = colors.light_grey },
     --NormalNC = config.dim_inactive and { fg = colors.fg0, bg = colors.bg1 } or { link = "Normal" },
@@ -937,6 +937,11 @@ set_terminal_colors(colors)
     NotifyWARNBorder = { fg = colors.yellow },
     NotifyWARNIcon = { fg = colors.yellow },
     NotifyWARNTitle = { fg = colors.yellow },
+    NotifyERRORBody = { link = "Normal" },
+    NotifyWARNBody = { link = "Normal" },
+    NotifyINFOBody = { link = "Normal" },
+    NotifyDEBUGBody = { link = "Normal" },
+    NotifyTRACEBody = { link = "Normal" },
   -- Lazy
     LazyH1 = { fg = colors.dark_blue, bg = colors.dark_grey3, bold = true },
     LazyProp = { bg = colors.dark_grey3, fg = colors.dark_blue },
@@ -958,6 +963,7 @@ set_terminal_colors(colors)
     Headline5 = { fg = colors.dark_green, bg = colors.green },
     Headline6 = { fg = colors.dark_red, bg = colors.red },
     CodeBlock = { fg = colors.dark_grey2, bg = colors.dark_grey3 },
+    Quote = { fg = colors.dark_grey2, bg = colors.dark_grey3 },
 -- In case I want to add overides
 --   for group, hl in pairs(config.overrides) do
 --     if groups[group] then
