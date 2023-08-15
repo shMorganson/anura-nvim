@@ -951,8 +951,8 @@ set_terminal_colors(colors)
     IndentBlanklineContextChar = { fg = colors.blue },
     IndentBlanklineContextStart = { fg = colors.blue },
   -- Headlines
-    Headline1 = { fg = colors.dark_blue, bg = colors.blue },
-    Headline2 = { fg = colors.dark_green, bg = "#97D606" },
+    Headline1 = { fg = colors.dark_grey3, bg = colors.blue },
+    Headline2 = { fg = colors.dark_grey3, bg = colors.green },
     Headline3 = { fg = colors.dark_orange, bg = colors.orange },
     Headline4 = { fg = colors.dark_purple, bg = colors.purple },
     Headline5 = { fg = colors.dark_teal, bg = colors.teal },
