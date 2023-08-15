@@ -950,6 +950,8 @@ set_terminal_colors(colors)
     IndentBlanklineChar = { fg = colors.light_grey1 },
     IndentBlanklineContextChar = { fg = colors.blue },
     IndentBlanklineContextStart = { fg = colors.blue },
+  -- Headlines
+    Headline1 = { fg = colors.blue, bg = colors.dark_blue },
 
 -- In case I want to add overides
 --   for group, hl in pairs(config.overrides) do

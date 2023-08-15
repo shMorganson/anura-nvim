@@ -43,6 +43,8 @@ Icon
 # Nova Editor
 .nova
 Configuration.json
+.luacheckrc
+.luarc.json
 
 # Directories potentially created on remote AFP share
 .AppleDB
