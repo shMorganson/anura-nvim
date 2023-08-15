@@ -951,13 +951,13 @@ set_terminal_colors(colors)
     IndentBlanklineContextChar = { fg = colors.blue },
     IndentBlanklineContextStart = { fg = colors.blue },
   -- Headlines
-    Headline1 = { fg = colors.dark_grey2, bg = colors.blue },
-    Headline2 = { fg = colors.dark_grey2, bg = colors.green },
-    Headline3 = { fg = colors.dark_orange, bg = colors.orange },
-    Headline4 = { fg = colors.dark_purple, bg = colors.purple },
-    Headline5 = { fg = colors.dark_teal, bg = colors.teal },
-    Headline6 = { fg = colors.dark_red, bg = colors.red },
-    CodeBlock = { fg = colors.dark_grey2, bg = colors.dark_grey3 },
+    Headline1 = { fg = colors.dark_grey3, bg = colors.blue },
+    Headline2 = { fg = colors.dark_grey3, bg = colors.green },
+    Headline3 = { fg = colors.dark_grey3, bg = colors.orange },
+    Headline4 = { fg = colors.dark_grey3, bg = colors.purple },
+    Headline5 = { fg = colors.dark_grey3, bg = colors.teal },
+    Headline6 = { fg = colors.dark_grey3, bg = colors.red },
+    CodeBlock = { fg = colors.dark_grey3, bg = colors.dark_grey3 },
 -- In case I want to add overides
 --   for group, hl in pairs(config.overrides) do
 --     if groups[group] then
