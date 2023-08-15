@@ -955,7 +955,7 @@ set_terminal_colors(colors)
     Headline2 = { fg = colors.dark_teal, bg = colors.teal },
     Headline3 = { fg = colors.dark_orange, bg = colors.orange },
     Headline4 = { fg = colors.dark_purple, bg = colors.purple },
-    Headline5 = { fg = colors.dark_teal, bg = colors.teal },
+    Headline5 = { fg = colors.dark_green, bg = colors.green },
     Headline6 = { fg = colors.dark_red, bg = colors.red },
     CodeBlock = { fg = colors.dark_grey2, bg = colors.dark_grey3 },
 -- In case I want to add overides
