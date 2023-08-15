@@ -957,7 +957,7 @@ set_terminal_colors(colors)
     Headline4 = { fg = colors.dark_purple, bg = colors.purple },
     Headline5 = { fg = colors.dark_teal, bg = colors.teal },
     Headline6 = { fg = colors.dark_red, bg = colors.red },
-
+    CodeBlock = { fg = colors.dark_grey2, bg = colors.dark_grey3 },
 -- In case I want to add overides
 --   for group, hl in pairs(config.overrides) do
 --     if groups[group] then
