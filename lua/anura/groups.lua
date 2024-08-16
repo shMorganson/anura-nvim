@@ -1,30 +1,30 @@
 local M = {}
 
 -- neovim teminal mode colors
--- local function set_terminal_colors(colors)
---   vim.g.terminal_color_0 = colors.black
---   vim.g.terminal_color_8 = colors.dark_grey1
---   vim.g.terminal_color_1 = colors.dark_red
---   vim.g.terminal_color_9 = colors.red
---   vim.g.terminal_color_2 = colors.dark_green
---   vim.g.terminal_color_10 = colors.green
---   vim.g.terminal_color_3 = colors.yellow
---   vim.g.terminal_color_11 = colors.yellow
---   vim.g.terminal_color_4 = colors.dark_blue
---   vim.g.terminal_color_12 = colors.blue
---   vim.g.terminal_color_5 = colors.dark_purple
---   vim.g.terminal_color_13 = colors.purple
---   vim.g.terminal_color_6 = colors.dark_teal
---   vim.g.terminal_color_14 = colors.teal
---   vim.g.terminal_color_7 = colors.grey
---   vim.g.terminal_color_15 = colors.light_grey
--- end
+local function set_terminal_colors(colors)
+  vim.g.terminal_color_0 = colors.black
+  vim.g.terminal_color_8 = colors.dark_grey1
+  vim.g.terminal_color_1 = colors.dark_red
+  vim.g.terminal_color_9 = colors.red
+  vim.g.terminal_color_2 = colors.dark_green
+  vim.g.terminal_color_10 = colors.green
+  vim.g.terminal_color_3 = colors.yellow
+  vim.g.terminal_color_11 = colors.yellow
+  vim.g.terminal_color_4 = colors.dark_blue
+  vim.g.terminal_color_12 = colors.blue
+  vim.g.terminal_color_5 = colors.dark_purple
+  vim.g.terminal_color_13 = colors.purple
+  vim.g.terminal_color_6 = colors.dark_teal
+  vim.g.terminal_color_14 = colors.teal
+  vim.g.terminal_color_7 = colors.grey
+  vim.g.terminal_color_15 = colors.light_grey
+end
 
 -- Might need looked at due to not having config in init.lua
 M.setup = function()
   local colors = require("anura.palette").get_base_colors(vim.o.background)
 
--- set_terminal_colors(colors)
+set_terminal_colors(colors)
 
   local groups = {
     -- Base groups
